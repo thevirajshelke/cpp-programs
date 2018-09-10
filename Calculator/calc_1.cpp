@@ -41,7 +41,8 @@ int main()
             cout << "The division of two numbers " << a << " & " << b << " is " << a / b << endl;
         }
     }
-    else{
+    else
+    {
         cout << "Invalid Option Selected!";
     }
     //getch(); //uncomment if using turbo c++
