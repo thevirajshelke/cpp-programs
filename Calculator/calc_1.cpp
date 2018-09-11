@@ -8,15 +8,15 @@ int main()
     float a, b;
     int choice;
     //clrscr(); //uncomment if using turbo c++
+    cout << "Enter two numbers: " << endl;
+    cin >> a >> b;
+
     cout << "Select any one of the following:" << endl;
     cout << "1. Addition" << endl;
     cout << "2. Subtraction" << endl;
     cout << "3. Multiplication" << endl;
     cout << "4. Division" << endl;
     cin >> choice;
-
-    cout << "Enter two numbers: " << endl;
-    cin >> a >> b;
 
     if (choice == 1)
     {
